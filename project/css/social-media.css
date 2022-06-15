@@ -1,0 +1,106 @@
+.flex-social-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.flex-wrap-icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 684px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+    
+}
+
+.contant-social {
+    width: 365px;
+    margin: 0 15px;
+}
+
+.title-social {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #333333;
+margin-bottom: 14px;
+
+}
+
+.text-social {
+width: 365px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+
+}
+
+
+
+
+.icon-shrift i{
+    font-size: 40px;
+    color: rgba(134, 135, 139, 0.55);
+    /* font-weight: 200px; */
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.facebook i:hover {
+    transform: scale(1.5) rotate(360deg);
+    color: rgb(125, 125, 187);
+    box-shadow: 0px 0px 20px 2px rgb(172, 172, 230), inset 0px 0px 20px 2px rgb(172, 172, 230);
+    transition-duration: 0.4s;
+    border-radius: 15px;
+}
+
+.twitter i:hover {
+    transform: translate(0, -50%);
+    color: rgb(75, 164, 224, 0.55);
+    transition-duration: 0.4s;
+}
+
+.google i:hover {
+    transform: skew(15deg, 15deg);
+    color: rgba(228, 97, 97,0.70);
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 20px 2px rgba(214, 56, 69, 0.65);
+    border-radius: 50%;
+}
+
+.insta i:hover {
+    /* transform: scale(1.5); */
+    transition-duration: 0.4s;
+    color: rgba(58, 130, 212, 0.65);
+    transform: rotate(150deg);
+}
+
+.wifi i {
+    transform-origin: bottom;
+}
+.wifi i:hover {
+transform: rotate(-45deg);
+transition-duration: 0.4s;
+color: rgba(99, 187, 168, 0.95);
+box-shadow: inset 0px 0px 15px 2px rgba(58, 130, 212, 0.65) ;
+border-radius: 45%;
+}
+
+.react i:hover {
+    transform: rotate(360deg);
+    transition-duration: 0.4s;
+    color: aqua;
+}
+
+.victo i:hover {
+    transform: scale(1.6) rotate(720deg);
+    color: rgba(226, 150, 51, 0.65);
+}

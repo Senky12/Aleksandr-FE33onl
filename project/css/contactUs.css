@@ -1,0 +1,117 @@
+.form-contactUs {
+    transition-duration: 0.3s;
+}
+.title-main-contactUs {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+    }
+    
+    .title-main-contactUs::after {
+        content: "";
+        width: 64px;
+        height: 2px;
+        background-color: #E72424;
+        display: block;
+        margin: 34px auto 34px;
+    }
+    
+    .some-text-contactUs {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 91px;
+    }
+    
+    .flex-wrap-contactUs {
+        display: flex;
+        justify-content: space-between;
+        flex-direction:row;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+    
+    .left-wrap-contactUs {
+    width: 478px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    .authorization-contactUs {
+        width: 100%;
+    
+    }
+    
+    .authorization-contactUs input {
+        margin-top: 32px;
+    }
+    
+    
+    .right-wrap-contactUs {
+        width: 478px;
+        margin: 0 15px;
+    }
+    
+    .textaria-contactus {
+        width: 100%;
+        
+    }
+    
+   .textaria-contactus textarea {
+        height: 224px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #BDBDBD ;
+    }
+    
+    .authorization-contactUs input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #BDBDBD;
+    }
+    
+    label {
+    display: block;    
+    width: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    /* margin-bottom: 36px; */
+    }
+    
+    .send-message-contactUs {
+    display: block;
+    margin: 69px auto 0;
+    background-color: #EC7979;
+    border: none;
+    padding: 11px 32px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    }
+
+    .send-message-contactUs:hover {
+        transform: scale(1.2);
+        box-shadow: 0 0 15px 2px #EC7979;
+        transition-duration: 0.3s;
+        color: purple;
+    }
